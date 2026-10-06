@@ -1,0 +1,13 @@
+:root{
+  color-scheme:dark;
+  --ground:#050E13; --panel:#0A1B23; --raised:#10303C; --rule:#1B4251;
+  --text:#E3F6F2; --dim:#86AFB5;
+  --mint:#2EF2C0;     /* акцент 1: действие, живо състояние */
+  --magenta:#FF4F9A;  /* акцент 2: данни, избор, фокус */
+  --warn:#FFC24B;     /* семантичен: грешки и предупреждения */
+  --font-display:"Unbounded","IBM Plex Sans",sans-serif; --font-ui:"IBM Plex Sans",system-ui,sans-serif;
+  --font-data:"IBM Plex Mono",ui-monospace,monospace;
+  --t-1:.75rem; --t0:.9375rem; --t1:1.125rem; --t2:1.5rem; --t3:2.5rem;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:40px;
+  --r:3px; --cut:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px)); --ease:cubic-bezier(.2,.7,.2,1); --dur:140ms;
+}

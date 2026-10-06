@@ -1,0 +1,9 @@
+@use 'styles/tokens';
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0)}
+body{margin:0;min-height:100vh;color:var(--text);font:400 var(--t0)/1.55 var(--font-ui);
+  background:var(--ground);
+  padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0)}
+:focus-visible{outline:2px solid var(--magenta);outline-offset:2px}
+.num{font-family:var(--font-data);font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
